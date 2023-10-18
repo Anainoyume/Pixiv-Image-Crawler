@@ -29,9 +29,9 @@ url = f'https://www.pixiv.net/ajax/user/{author_id}/profile/all?lang=zh&version=
 
 # 进入pixiv首页的标头
 headers = {
-    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+    'User-Agent':'...',
     'Referer':'https://www.pixiv.net/',
-    'Cookie':'first_visit_datetime_pc=2023-10-15%2020%3A54%3A16; p_ab_id=1; p_ab_id_2=2; p_ab_d_id=1092508805; yuid_b=FDIVY5Y; _fbp=fb.1.1697370859567.1977225397; privacy_policy_agreement=6; PHPSESSID=81229234_JVzsc9gd1Q3BFufKiCp1bmE7jjqj6nqF; device_token=d537e90ebd7097b9e383a50c3866c1cd; c_type=19; privacy_policy_notification=0; a_type=0; b_type=0; QSI_S_ZN_5hF4My7Ad6VNNAi=v:0:0; _im_vid=01HCSK1FNSTZZE2Y951XBGTM2B; _gid=GA1.2.1505717847.1697467294; cf_clearance=pwjudnwkuolopnXJZoHOaspY5yw5m84ik6LBrlRuV0w-1697467314-0-1-818fea4a.eb2a95da.d68eb5aa-0.2.1697467314; _im_uid.3929=b.0ad740c8178a4940; __cf_bm=HQCqlg3WDKYne6MsOqtccwhYw7Sxit3.GkUGNB4H78w-1697519203-0-AcRBmNM+SY9qOqjytpTF/PExRKRcWe4ewvrCrVWq0TopdZ8F04atuNGWVpbM4vJb3eI/DvG6aqRDS5DMpx9DWTgyxmjfzyjoSShlzLz3g5cz; cto_bundle=ws9J1F9uR2pXUFpJRVdQTmVpJTJGcDMwWHc2NW5vWGVWMWMxRUFCUmNoZiUyRnI3WVlwV2lQVzNhTW50SHVUNENESVpmM001WjFselElMkJBVHNXYlNqJTJCNkpxc0JiRzNZb2tiMEclMkJYazBDWmpiTUgwUlY2cEg4bFVXSlBsNzNzdFdDU0RqRGVrQ0I; _gat_UA-1830249-3=1; _ga_75BBYNYN9J=GS1.1.1697517392.4.1.1697519311.0.0.0; _ga=GA1.2.349102705.1697370858'
+    'Cookie':'...'
 }
 
 r = requests.get(url,headers=headers)
