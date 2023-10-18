@@ -13,9 +13,6 @@ def download_img(downloadURL,uid):
     if (download.status_code != 200):
         downloadURL = downloadURL[:downloadURL.find('_p0')] + '_p0.png'
         download = requests.get(downloadURL,headers=headers,stream=True)
-    if (download.status_code != 200):
-        downloadURL = downloadURL[:downloadURL.find('_p0')] + '_p0.png'
-        download = requests.get(downloadURL,headers=headers,stream=True)
 
     Total = int(download.headers.get("Content-Length"))    #获取文件内容长度
     with open(f'./image/{uid}.png','wb') as img:
