@@ -15,10 +15,10 @@ url = f'https://www.pixiv.net/ajax/user/{author_id}/profile/all?lang=zh&version=
 
 # 进入pixiv首页的标头
 headers = {
-    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+    'User-Agent':'...',
     'Referer':'https://www.pixiv.net/',
     'Sec-Fetch-Site':'cross-site',
-    'Cookie':'first_visit_datetime_pc=2023-10-15%2020%3A54%3A16; p_ab_id=1; p_ab_id_2=2; p_ab_d_id=1092508805; yuid_b=FDIVY5Y; _fbp=fb.1.1697370859567.1977225397; privacy_policy_agreement=6; device_token=d537e90ebd7097b9e383a50c3866c1cd; privacy_policy_notification=0; a_type=0; b_type=0; _im_vid=01HCSK1FNSTZZE2Y951XBGTM2B; _im_uid.3929=b.0ad740c8178a4940; _gcl_au=1.1.254438710.1697637384; login_ever=yes; howto_recent_view_history=101954965%2C59452194; __cf_bm=lqi2ehZdKnCMbYFOZeJCA0AFKUAw.iirn7HDKGOSXgg-1698311014-0-AaTKoCVPj4QObFzh48Vu5Xd7MIQXql5rnNA21n2ARs0knoM+/A30Nct1jEhjF4W4QijDxO/MQEkGUFVWbi25PJdOKzKu5Dv5lHE5UN7RDOXJ; cf_clearance=C87.Tf0w6uTVSJppuewoWmvlWIoZ_mqHjTChaocMO8k-1698311019-0-1-818fea4a.eb2a95da.d68eb5aa-0.2.1698311019; _gid=GA1.2.1808724708.1698311021; PHPSESSID=81229234_0vg93tqU3iECmBjS4oPFs1lBkyQRA4qY; c_type=20; QSI_S_ZN_5hF4My7Ad6VNNAi=v:0:0; cto_bundle=LiMapV9uR2pXUFpJRVdQTmVpJTJGcDMwWHc2NXM4aWFJWEFyJTJGdUtzWFJrTDN5OUZRVEklMkJBWHZPOEc3QkNOZiUyQlhaTUVNVDdJblR2NGVhTlFaM21sOFlscUdya3ZRZnZtaEtZRnJhVEtrMmxlNUp2RVJwTXhPOG1zJTJGRFF3TEtTMzRWNWFXSzU; _gat_UA-1830249-3=1; _ga=GA1.1.349102705.1697370858; _ga_75BBYNYN9J=GS1.1.1698311017.11.1.1698312741.0.0.0'
+    'Cookie':'...'
 }
 
 # 下载函数 mika uid:1039353
